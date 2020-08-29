@@ -1,0 +1,41 @@
+
+See also version in steveisaacson.com
+
+
+
+o create new project in github.com
+
+o Under Settings, GitHub Pages select
+  master branch
+
+o and probably enforce HTTPS
+  (but takes a while)
+
+o create CNAME file with domainname.com
+
+    CNAME
+      steveisaacson.com
+
+o go to godaddy and add A records for the following
+
+
+    $ dig +noall +answer example.com
+     ;example.com.
+     example.com.   3600  IN  A 185.199.108.153
+     example.com.   3600  IN  A 185.199.109.153
+     example.com.   3600  IN  A 185.199.110.153
+     example.com.   3600  IN  A 185.199.111.153
+
+    Type    Name    Value            TTL
+    -----  ------   -----            ---
+
+     A       @      185.199.108.153   600 seconds
+     A       @      185.199.109.153   600 seconds
+     A       @      185.199.110.153   600 seconds
+     A       @      185.199.111.153   600 seconds
+
+o go to Code
+
+
+  clone git@github.com:plogs/jasmineisaacson.com.git
+
