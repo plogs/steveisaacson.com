@@ -1,0 +1,5 @@
+:
+
+# apt install imagemagick
+
+convert local_images/stevei.png -resize 32x32 -background none -gravity center -extent 32x32 favicon.png
