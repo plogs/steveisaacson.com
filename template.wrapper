@@ -58,7 +58,7 @@
       color: #1a1a1a;
     }
     img {
-      max-width: 50%;
+      max-width: 100%;
     }
     svg {
       height: auto;
@@ -185,15 +185,6 @@ Forthcoming nonfiction book:<br>
 
 
 
-<h1 class="unnumbered" id="about-the-author">About the Author</h1>
-<p><img src="images/pencilsteve.png" alt="image" /></p>
-<p><code>contact@steveisaacson.com</code></p>
-<p><strong>Steve Isaacson</strong> is a retired computer programmer,
-private pilot, and long-ago philosophy major who still likes to play
-with ideas.</p>
-<p>He lives in Seattle, Washington, and writes the occasional essay when
-he’s not arguing with family and friends about why all of us are
-probably wrong about something.</p>
 
 
 
